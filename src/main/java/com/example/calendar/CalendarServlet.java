@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.*;
+import javax.servlet.ServletException;
+import javax.servlet.http.*;
 
 public class CalendarServlet extends HttpServlet {
     @Override
